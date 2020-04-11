@@ -38,6 +38,11 @@ database:
 #    host: external-db-hostname
 #    rootPassword: chang3m3! # can only be set for embedded mysql
 
+external_relay: {}
+#    relayhost: "[domain.tld]:port"
+#    relayuser: username
+#    relaypassword: SECRET
+
 persistence:
   size: 100Gi
   accessMode: ReadWriteOnce
